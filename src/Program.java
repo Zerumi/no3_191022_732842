@@ -3,47 +3,51 @@
  * Работу выполнил: Афанасьев Кирилл Александрович
  * Университет ИТМО, СУиР -- 24.03.02 СУДиН
  */
+
+/* Вечером острый запах цветущей рябины заполнил зал.
+ * Птички порхали под самым потолком, охотясь за пауками, а малышка Мю повстречала на ковре в зале большого страшного муравья.
+ * Только теперь все заметили, что театр плыл уже в лесу.
+ * Все пришли в сильное волнение.
+ * Забыв свой страх перед Эммой, они сгрудились у самой воды, разговаривая и размахивая лапами.
+ * Они привязали дом к большой рябине.
+ * Муми-папа прикрепил канат к своей палке, а палку воткнул прямо в крышу чулана.
+ */
+
+import entities.Birds;
+import entities.Spiders;
+import places.Place;
+import places.isolatedPlaces.Hall;
+import places.openPlaces.OpenPlace;
+import places.openPlaces.UnderCeiling;
+import places.singlePlaces.Hower;
+import story.Time;
+import things.ISmellable;
+import things.Rowan;
+
+// Согласованная объектная модель:
+/* Абстракции:
+ * Entity -- представляет сущность
+ * Place -- место
+ * Thing -- вещь
+ * Berry -- ягода
+ *
+ * Интерфейсы:
+ * ISmellable -- Возможность иметь запах (для наполнения закрытого пространства)
+ */
 public class Program {
-    public static void main(String[] args)
-    {
-        Rowan rowan = new Rowan("цветущей рябины","острый");
+    public static void main(String[] args) {
+        // Вечером острый запах цветущей рябины заполнил зал.
         Hall hall = new Hall("зал");
+        ISmellable berry = new Rowan("рябина", "острый", true);
+        hall.fillSmell(Time.EVENING, berry);
 
-        Birds birds = new Birds("Птички");
-        Place undercover = new UnderCeiling("под самым потолком");
-        Entity spiders = new Spiders("пауками");
-
-        Miu miu = new Miu("Малышка Мю");
-        Place hower = new Hower("на ковре в зале");
-        Entity bsa = new BigScaryAnt("большого страшного муравья");
-
-        All all = new All("Все");
-        Event event = new Event("театр плыл уже в лесу");
-        Event fear = new Event("свой страх перед Эммой");
-
-        They they = new They("Они");
-        Place nearthewater = new NearWater("у самой воды");
-        Place house = new House("дом");
-        Place bigrow = new BigRowanTree("большой рябине");
-
-        MumiFather farther = new MumiFather("Муми-папа");
-        Thing rope = new Rope("канат");
-        Thing stick = new Stick("своей палке");
-        Thing ropewithstck = new Stick("палку");
-        Place roof = new Roof("крышу чулана");
-
-        hall.fillSmell(Time.EVENING, rowan);
-        birds.flutter(undercover);
+        // Птички порхали под самым потолком, охотясь за пауками, а малышка Мю повстречала на ковре в зале большого страшного муравья.
+        OpenPlace underCeiling = new UnderCeiling("под самым потолком");
+        Birds birds = new Birds("Птчики");
+        Spiders spiders = new Spiders("паучки");
+        birds.setLocation(underCeiling);
+        birds.flutter();
         birds.hunt(spiders);
-        miu.meet(hower,bsa);
-        all.notice(Time.RIGHT_NOW, event);
-        all.worry();
-        they.forget(fear);
-        they.huddle(nearthewater);
-        they.talk();
-        they.wave();
-        they.attach(house,bigrow);
-        farther.attach(rope,stick);
-        farther.stick(ropewithstck, roof);
+
     }
 }

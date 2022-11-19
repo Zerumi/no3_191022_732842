@@ -1,16 +1,18 @@
-public class Event implements INameable{
+package places;
+
+public abstract class Place {
     private String name;
-    public Event(String name)
+
+    protected Place(String name)
     {
         this.setName(name);
     }
-    @Override
+
     public String getName() {
         return name;
     }
 
-    @Override
-    public void setName(String name) {
+    protected void setName(String name) {
         this.name = name;
     }
 }

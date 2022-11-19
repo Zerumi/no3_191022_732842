@@ -1,3 +1,7 @@
+package entities;
+
+import places.Place;
+
 public class Miu extends Entity {
 
     public Miu(String name)
@@ -5,7 +9,7 @@ public class Miu extends Entity {
         super(name);
     }
 
-    public void meet(INameable where, INameable who)
+    public void meet(Place where, Entity who)
     {
         System.out.print(this.getName() + " повстречала " + where.getName() + " " + who.getName() + ". ");
     }

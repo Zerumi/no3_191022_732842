@@ -1,3 +1,5 @@
+package entities;
+
 public class Spiders extends Entity {
 
     public Spiders(String name) {

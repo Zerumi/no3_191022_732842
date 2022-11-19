@@ -1,4 +1,6 @@
+package things;
+
 public interface ISmellable {
     String getSmell();
-    void setSmell(String smell);
+    String getSmellSource();
 }
