@@ -1,7 +1,6 @@
 package entities;
 
-import places.Place;
-import places.openPlaces.OpenPlace;
+import java.util.Objects;
 
 public class Birds extends Entity {
 
@@ -12,11 +11,18 @@ public class Birds extends Entity {
 
     public void hunt(Entity entity)
     {
-        System.out.print(this.getName() + " охотились за " + entity.getName() + ". ");
+        if (Objects.equals(this.getLocation(), entity.getLocation()))
+        {
+            System.out.println(this.getName() + " охотились за " + entity.getName() + ". ");
+        }
+        else
+        {
+            System.out.println(this.getName() + " пытались охотиться за " + entity.getName() + ", но вряд-ли у них это получалось...");
+        }
     }
 
     public void flutter()
     {
-        System.out.print(this.getName() + " порхали " + getLocation().getName() + ". ");
+        System.out.println(this.getName() + " порхали " + getLocation().getName() + ". ");
     }
 }

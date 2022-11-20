@@ -1,8 +1,8 @@
 package things;
 
-import things.Thing;
+import things.unitions.ICanAttachable;
 
-public class Stick extends Thing {
+public class Stick extends Thing implements ICanAttachable {
     public Stick(String name) {
         super(name);
     }

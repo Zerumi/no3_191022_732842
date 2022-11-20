@@ -1,22 +1,30 @@
 package entities;
 
-import things.IAttachable;
+import places.Place;
+import things.unitions.ICanAttachable;
 import things.Thing;
+import things.unitions.Unition;
 
-public class MumiFather extends Entity implements IAttachable {
+import java.util.Arrays;
+
+public class MumiFather extends Entity implements IAttachable{
 
     public MumiFather(String name) {
         super(name);
     }
 
-    @Override
-    public void attach(Thing thing, Thing thing1)
+    public void stick(Thing thing, Place where)
     {
-        System.out.print(this.getName() + " прикрепил " + thing.getName() + " к " + thing1.getName() + ". ");
+        System.out.println(this.getName() + " воткнул " + thing.getName() + " прямо в " + where.getName() + ". ");
     }
 
-    public void stick(Thing thing1, Thing thing2)
-    {
-        System.out.print(this.getName() + " воткнул " + thing1.getName() + " прямо в " + thing2.getName() + ". ");
+    @Override
+    public Unition attach(ICanAttachable... things) {
+
+        Unition unition = new Unition(things);
+
+        System.out.println(this.getName() + " прикрепил между собой " + Arrays.toString(things));
+
+        return unition;
     }
 }

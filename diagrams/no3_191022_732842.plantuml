@@ -1,0 +1,92 @@
+@startuml
+
+!theme plain
+top to bottom direction
+skinparam linetype ortho
+
+enum Actions << enumeration >>
+class All
+class Berry
+class BigRowanTree
+class BigScaryAnt
+class Birds
+class Buff
+class Emma
+class Entity
+class Event
+class Forest
+class Hall
+class House
+class Hower
+interface IActionable << interface >>
+interface IAttachable << interface >>
+interface ICanAttachable << interface >>
+interface ISmellable << interface >>
+interface ISourceable << interface >>
+interface IWorriable << interface >>
+class IsolatedPlace
+class Lumber
+class Miu
+class MiuTest
+class MumiFather
+class NearWater
+class ObjectMethodsTest
+class OpenPlace
+class Place
+class Program
+class Roof
+class Rope
+class Rowan
+class SinglePlace
+class Spiders
+enum Stat << enumeration >>
+class Stick
+class SuperPlace
+class Theatre
+class They
+class Thing
+enum Time << enumeration >>
+class UnderCeiling
+class Unition
+class UnknownLocation
+
+All                -[#000082,plain]-^  Entity            
+All                -[#008200,dashed]-^  IWorriable        
+Berry              -[#008200,dashed]-^  ISmellable        
+Berry              -[#000082,plain]-^  Thing             
+BigRowanTree       -[#008200,dashed]-^  ICanAttachable    
+BigRowanTree       -[#000082,plain]-^  SinglePlace       
+BigScaryAnt        -[#000082,plain]-^  Entity            
+Birds              -[#000082,plain]-^  Entity            
+Emma               -[#000082,plain]-^  Entity            
+Entity             -[#008200,dashed]-^  IActionable       
+Entity             -[#008200,dashed]-^  ISourceable       
+Forest             -[#000082,plain]-^  OpenPlace         
+Hall               -[#000082,plain]-^  IsolatedPlace     
+House              -[#008200,dashed]-^  ICanAttachable    
+House              -[#000082,plain]-^  IsolatedPlace     
+Hower              -[#000082,plain]-^  SinglePlace       
+IsolatedPlace      -[#000082,plain]-^  SuperPlace        
+Lumber             -[#000082,plain]-^  IsolatedPlace     
+Miu                -[#000082,plain]-^  Entity            
+MumiFather         -[#000082,plain]-^  Entity            
+MumiFather         -[#008200,dashed]-^  IAttachable       
+NearWater          -[#000082,plain]-^  OpenPlace         
+OpenPlace          -[#000082,plain]-^  SuperPlace        
+Roof               -[#000082,plain]-^  SinglePlace       
+Rope               -[#008200,dashed]-^  ICanAttachable    
+Rope               -[#000082,plain]-^  Thing             
+Rowan              -[#000082,plain]-^  Berry             
+SinglePlace        -[#000082,plain]-^  Place             
+Spiders            -[#000082,plain]-^  Entity            
+Stick              -[#008200,dashed]-^  ICanAttachable    
+Stick              -[#000082,plain]-^  Thing             
+SuperPlace         -[#000082,plain]-^  Place             
+Theatre            -[#008200,dashed]-^  IActionable       
+Theatre            -[#000082,plain]-^  IsolatedPlace     
+They               -[#000082,plain]-^  Entity            
+They               -[#008200,dashed]-^  IAttachable       
+UnderCeiling       -[#000082,plain]-^  OpenPlace         
+Unition            -[#000082,plain]-^  Thing             
+UnknownLocation    -[#000082,plain]-^  SuperPlace        
+@enduml

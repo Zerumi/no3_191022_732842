@@ -1,46 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="076bf813-87cb-4ac9-a9e0-f93221fc88f6" name="Changes" comment="Add diagram">
-      <change afterPath="$PROJECT_DIR$/src/entities/They.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/places/isolatedPlaces/Hall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/places/isolatedPlaces/IsolatedPlace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/places/openPlaces/OpenPlace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/places/singlePlaces/SinglePlace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/story/Event.java" afterDir="false" />
+    <list default="true" id="076bf813-87cb-4ac9-a9e0-f93221fc88f6" name="Changes" comment="diagram">
+      <change afterPath="$PROJECT_DIR$/diagrams/approved_v.1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diagrams/no3_191022_732842.dot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diagrams/no3_191022_732842.drawio" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diagrams/no3_191022_732842.graphml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diagrams/no3_191022_732842.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diagrams/no3_191022_732842.plantuml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diagrams/no3_191022_732842.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diagrams/old.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Emma.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/IAttachable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/IWorriable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/entityBuff/Buff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/entityBuff/ISourceable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/entityBuff/Stat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/places/superPlaces/SuperPlace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/places/superPlaces/isolatedPlaces/House.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/places/superPlaces/isolatedPlaces/Lumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/places/superPlaces/isolatedPlaces/Theatre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/places/superPlaces/openPlaces/Forest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/places/superPlaces/openPlaces/UnknownLocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/story/Actions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/story/IActionable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/MiuTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/ObjectMethodsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/things/berries/Berry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/things/unitions/ICanAttachable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/things/unitions/Unition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/All.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/All.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Berry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/things/Berry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BigRowanTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/places/singlePlaces/BigRowanTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BigScaryAnt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/BigScaryAnt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Birds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Birds.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Entity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Event.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hall.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/House.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/places/singlePlaces/Hower.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IAttachable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/things/IAttachable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/INameable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ISmellable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/things/ISmellable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Miu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Miu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MumiFather.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/MumiFather.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NearWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/places/openPlaces/NearWater.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Place.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/places/Place.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diagrams/diagrams.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Roof.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/places/openPlaces/Roof.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Rope.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/things/Rope.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Rowan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/things/Rowan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Spiders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Spiders.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/things/Stick.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/They.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/things/Thing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Time.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/story/Time.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UnderCeiling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/places/openPlaces/UnderCeiling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/All.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/All.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/BigScaryAnt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/BigScaryAnt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Birds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Birds.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Entity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Miu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Miu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/MumiFather.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/MumiFather.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/They.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/They.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/places/Place.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/places/Place.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/places/isolatedPlaces/Hall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/places/superPlaces/isolatedPlaces/Hall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/places/isolatedPlaces/IsolatedPlace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/places/superPlaces/isolatedPlaces/IsolatedPlace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/places/openPlaces/NearWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/places/superPlaces/openPlaces/NearWater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/places/openPlaces/OpenPlace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/places/superPlaces/openPlaces/OpenPlace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/places/openPlaces/Roof.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/places/singlePlaces/Roof.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/places/openPlaces/UnderCeiling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/places/superPlaces/openPlaces/UnderCeiling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/places/singlePlaces/BigRowanTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/places/singlePlaces/BigRowanTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/places/singlePlaces/Hower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/places/singlePlaces/Hower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/places/singlePlaces/SinglePlace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/places/singlePlaces/SinglePlace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/story/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/story/Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/things/Berry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/things/IAttachable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/things/Rope.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/things/Rope.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/things/Rowan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/things/berries/Rowan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/things/Stick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/things/Stick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/things/Thing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/things/Thing.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -65,18 +88,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Zerumi/ЛАБЫ ПРОГА 2022/no2_140922_79091&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.uml&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Zerumi/ЛАБЫ ПРОГА 2022/no3_191022_732842",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.uml"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="entities" />
+      <recent name="story" />
+      <recent name="places.superPlaces.isolatedPlaces" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
@@ -109,7 +138,10 @@
       <workItem from="1667391931858" duration="1033000" />
       <workItem from="1668497432934" duration="14180000" />
       <workItem from="1668609411535" duration="1235000" />
-      <workItem from="1668798005407" duration="13879000" />
+      <workItem from="1668798005407" duration="13998000" />
+      <workItem from="1668870808231" duration="8848000" />
+      <workItem from="1668880486536" duration="22934000" />
+      <workItem from="1668907459989" duration="469000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1666217231948</created>
@@ -132,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667346551932</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="According to SOLID, part 1">
+      <created>1668821018377</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668821018377</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,7 +193,8 @@
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Add first object model" />
     <MESSAGE value="Add diagram" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add diagram" />
+    <MESSAGE value="According to SOLID, part 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="According to SOLID, part 1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

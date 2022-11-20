@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>D:/Zerumi/ЛАБЫ ПРОГА 2022/no3_191022_732842/src</OriginalElement>
+  <nodes>
+    <node x="760.0" y="400.0">entities.entityBuff.Stat</node>
+    <node x="679.5679347826087" y="144.0">things.Thing</node>
+    <node x="1041.0" y="251.0">places.superPlaces.isolatedPlaces.Hall</node>
+    <node x="173.0" y="251.0">places.singlePlaces.BigRowanTree</node>
+    <node x="793.0" y="251.0">things.unitions.Unition</node>
+    <node x="1566.5679347826087" y="65.0">places.superPlaces.SuperPlace</node>
+    <node x="678.0" y="251.0">places.superPlaces.isolatedPlaces.House</node>
+    <node x="441.81793478260875" y="144.0">things.unitions.ICanAttachable</node>
+    <node x="-51.25" y="328.0">entities.All</node>
+    <node x="1831.3179347826087" y="328.0">entities.Birds</node>
+    <node x="2182.138586956522" y="251.0">places.superPlaces.openPlaces.UnderCeiling</node>
+    <node x="1907.1385869565217" y="251.0">places.superPlaces.openPlaces.Forest</node>
+    <node x="1147.0" y="251.0">places.superPlaces.isolatedPlaces.Lumber</node>
+    <node x="2031.138586956522" y="251.0">places.superPlaces.openPlaces.NearWater</node>
+    <node x="1368.6385869565217" y="144.0">story.IActionable</node>
+    <node x="1742.6385869565217" y="144.0">entities.entityBuff.ISourceable</node>
+    <node x="1305.8179347826087" y="251.0">places.superPlaces.isolatedPlaces.Theatre</node>
+    <node x="926.0" y="251.0">things.berries.Berry</node>
+    <node x="351.0" y="251.0">places.singlePlaces.Roof</node>
+    <node x="457.0" y="251.0">things.Rope</node>
+    <node x="2019.567934782609" y="144.0">places.superPlaces.openPlaces.OpenPlace</node>
+    <node x="1311.4565217391305" y="328.0">entities.Miu</node>
+    <node x="146.0" y="400.0">tests.MiuTest</node>
+    <node x="891.0" y="400.0">story.Time</node>
+    <node x="1022.0" y="400.0">entities.entityBuff.Buff</node>
+    <node x="1408.4565217391305" y="328.0">entities.BigScaryAnt</node>
+    <node x="1537.6385869565217" y="144.0">places.superPlaces.openPlaces.UnknownLocation</node>
+    <node x="2180.611413043478" y="328.0">entities.MumiFather</node>
+    <node x="-102.0" y="251.0">entities.IWorriable</node>
+    <node x="1208.6385869565217" y="144.0">things.ISmellable</node>
+    <node x="1725.3179347826087" y="328.0">entities.Emma</node>
+    <node x="304.0" y="400.0">story.Actions</node>
+    <node x="933.6385869565217" y="144.0">places.superPlaces.isolatedPlaces.IsolatedPlace</node>
+    <node x="-102.0" y="400.0">tests.ObjectMethodsTest</node>
+    <node x="2340.611413043478" y="328.0">entities.They</node>
+    <node x="1765.1385869565217" y="251.0">entities.Entity</node>
+    <node x="186.98641304347825" y="144.0">places.singlePlaces.SinglePlace</node>
+    <node x="2362.611413043478" y="251.0">entities.IAttachable</node>
+    <node x="620.0" y="400.0">story.Event</node>
+    <node x="563.0" y="251.0">things.Stick</node>
+    <node x="926.0" y="328.0">things.berries.Rowan</node>
+    <node x="462.0" y="400.0">Program</node>
+    <node x="58.0" y="251.0">places.singlePlaces.Hower</node>
+    <node x="2033.567934782609" y="328.0">entities.Spiders</node>
+    <node x="864.9429347826087" y="-14.0">places.Place</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="entities.Entity" target="story.IActionable" relationship="REALIZATION">
+      <point x="0.0" y="-13.5" />
+      <point x="1817.1385869565217" y="221.0" />
+      <point x="1443.1385869565217" y="221.0" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="places.singlePlaces.BigRowanTree" target="things.unitions.ICanAttachable" relationship="REALIZATION">
+      <point x="39.5" y="-13.5" />
+      <point x="291.5" y="221.0" />
+      <point x="529.8179347826087" y="221.0" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="entities.They" target="entities.IAttachable" relationship="REALIZATION">
+      <point x="21.5" y="-13.5" />
+      <point x="2405.111413043478" y="298.0" />
+      <point x="2437.111413043478" y="298.0" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="places.superPlaces.openPlaces.Forest" target="places.superPlaces.openPlaces.OpenPlace" relationship="GENERALIZATION">
+      <point x="0.0" y="-13.5" />
+      <point x="1959.138586956522" y="231.0" />
+      <point x="2085.067934782609" y="231.0" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="entities.Miu" target="entities.Entity" relationship="GENERALIZATION">
+      <point x="0.0" y="-13.5" />
+      <point x="1349.9565217391305" y="308.0" />
+      <point x="1817.1385869565217" y="308.0" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="places.superPlaces.openPlaces.NearWater" target="places.superPlaces.openPlaces.OpenPlace" relationship="GENERALIZATION">
+      <point x="0.0" y="-13.5" />
+      <point x="2096.638586956522" y="231.0" />
+      <point x="2085.067934782609" y="231.0" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="things.berries.Berry" target="things.Thing" relationship="GENERALIZATION">
+      <point x="-23.75" y="-13.5" />
+      <point x="949.75" y="211.0" />
+      <point x="727.0679347826087" y="211.0" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="places.superPlaces.isolatedPlaces.IsolatedPlace" target="places.superPlaces.SuperPlace" relationship="GENERALIZATION">
+      <point x="0.0" y="-13.5" />
+      <point x="1017.1385869565217" y="118.0" />
+      <point x="1636.5679347826087" y="118.0" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="things.berries.Berry" target="things.ISmellable" relationship="REALIZATION">
+      <point x="23.75" y="-13.5" />
+      <point x="997.25" y="191.0" />
+      <point x="1278.6385869565217" y="191.0" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="things.Rope" target="things.unitions.ICanAttachable" relationship="REALIZATION">
+      <point x="-21.5" y="-13.5" />
+      <point x="478.5" y="221.0" />
+      <point x="529.8179347826087" y="221.0" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="things.Rope" target="things.Thing" relationship="GENERALIZATION">
+      <point x="21.5" y="-13.5" />
+      <point x="521.5" y="211.0" />
+      <point x="727.0679347826087" y="211.0" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="places.superPlaces.SuperPlace" target="places.Place" relationship="GENERALIZATION">
+      <point x="0.0" y="-13.5" />
+      <point x="1636.5679347826087" y="39.0" />
+      <point x="912.4429347826087" y="39.0" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="things.berries.Rowan" target="things.berries.Berry" relationship="GENERALIZATION">
+      <point x="0.0" y="-13.5" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="entities.All" target="entities.IWorriable" relationship="REALIZATION">
+      <point x="-19.25" y="-13.5" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="places.superPlaces.openPlaces.UnderCeiling" target="places.superPlaces.openPlaces.OpenPlace" relationship="GENERALIZATION">
+      <point x="0.0" y="-13.5" />
+      <point x="2261.138586956522" y="231.0" />
+      <point x="2085.067934782609" y="231.0" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="places.superPlaces.isolatedPlaces.Theatre" target="places.superPlaces.isolatedPlaces.IsolatedPlace" relationship="GENERALIZATION">
+      <point x="-28.25" y="-13.5" />
+      <point x="1334.0679347826087" y="201.0" />
+      <point x="1017.1385869565217" y="201.0" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="places.singlePlaces.BigRowanTree" target="places.singlePlaces.SinglePlace" relationship="GENERALIZATION">
+      <point x="-39.5" y="-13.5" />
+      <point x="212.5" y="231.0" />
+      <point x="261.48641304347825" y="231.0" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="entities.Spiders" target="entities.Entity" relationship="GENERALIZATION">
+      <point x="0.0" y="-13.5" />
+      <point x="2090.067934782609" y="308.0" />
+      <point x="1817.1385869565217" y="308.0" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="places.singlePlaces.Roof" target="places.singlePlaces.SinglePlace" relationship="GENERALIZATION">
+      <point x="0.0" y="-13.5" />
+      <point x="394.0" y="231.0" />
+      <point x="261.48641304347825" y="231.0" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="entities.BigScaryAnt" target="entities.Entity" relationship="GENERALIZATION">
+      <point x="0.0" y="-13.5" />
+      <point x="1482.9565217391305" y="308.0" />
+      <point x="1817.1385869565217" y="308.0" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="places.superPlaces.isolatedPlaces.House" target="things.unitions.ICanAttachable" relationship="REALIZATION">
+      <point x="-23.75" y="-13.5" />
+      <point x="701.75" y="221.0" />
+      <point x="529.8179347826087" y="221.0" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="entities.Entity" target="entities.entityBuff.ISourceable" relationship="REALIZATION">
+      <point x="0.0" y="-13.5" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="places.singlePlaces.Hower" target="places.singlePlaces.SinglePlace" relationship="GENERALIZATION">
+      <point x="0.0" y="-13.5" />
+      <point x="105.5" y="231.0" />
+      <point x="261.48641304347825" y="231.0" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="entities.Birds" target="entities.Entity" relationship="GENERALIZATION">
+      <point x="0.0" y="-13.5" />
+      <point x="1878.8179347826087" y="308.0" />
+      <point x="1817.1385869565217" y="308.0" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="places.singlePlaces.SinglePlace" target="places.Place" relationship="GENERALIZATION">
+      <point x="0.0" y="-13.5" />
+      <point x="261.48641304347825" y="39.0" />
+      <point x="912.4429347826087" y="39.0" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="entities.Emma" target="entities.Entity" relationship="GENERALIZATION">
+      <point x="0.0" y="-13.5" />
+      <point x="1768.3179347826087" y="308.0" />
+      <point x="1817.1385869565217" y="308.0" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="things.Stick" target="things.Thing" relationship="GENERALIZATION">
+      <point x="23.75" y="-13.5" />
+      <point x="634.25" y="211.0" />
+      <point x="727.0679347826087" y="211.0" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="entities.MumiFather" target="entities.IAttachable" relationship="REALIZATION">
+      <point x="35.0" y="-13.5" />
+      <point x="2285.611413043478" y="298.0" />
+      <point x="2437.111413043478" y="298.0" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="things.Stick" target="things.unitions.ICanAttachable" relationship="REALIZATION">
+      <point x="-23.75" y="-13.5" />
+      <point x="586.75" y="221.0" />
+      <point x="529.8179347826087" y="221.0" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="places.superPlaces.isolatedPlaces.Theatre" target="story.IActionable" relationship="REALIZATION">
+      <point x="28.25" y="-13.5" />
+      <point x="1390.5679347826087" y="231.0" />
+      <point x="1443.1385869565217" y="231.0" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="places.superPlaces.isolatedPlaces.Lumber" target="places.superPlaces.isolatedPlaces.IsolatedPlace" relationship="GENERALIZATION">
+      <point x="0.0" y="-13.5" />
+      <point x="1199.0" y="201.0" />
+      <point x="1017.1385869565217" y="201.0" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="places.superPlaces.isolatedPlaces.House" target="places.superPlaces.isolatedPlaces.IsolatedPlace" relationship="GENERALIZATION">
+      <point x="23.75" y="-13.5" />
+      <point x="749.25" y="201.0" />
+      <point x="1017.1385869565217" y="201.0" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="places.superPlaces.openPlaces.OpenPlace" target="places.superPlaces.SuperPlace" relationship="GENERALIZATION">
+      <point x="0.0" y="-13.5" />
+      <point x="2085.067934782609" y="118.0" />
+      <point x="1636.5679347826087" y="118.0" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="entities.MumiFather" target="entities.Entity" relationship="GENERALIZATION">
+      <point x="-35.0" y="-13.5" />
+      <point x="2215.611413043478" y="308.0" />
+      <point x="1817.1385869565217" y="308.0" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="places.superPlaces.isolatedPlaces.Hall" target="places.superPlaces.isolatedPlaces.IsolatedPlace" relationship="GENERALIZATION">
+      <point x="0.0" y="-13.5" />
+      <point x="1084.0" y="201.0" />
+      <point x="1017.1385869565217" y="201.0" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="entities.They" target="entities.Entity" relationship="GENERALIZATION">
+      <point x="-21.5" y="-13.5" />
+      <point x="2362.111413043478" y="308.0" />
+      <point x="1817.1385869565217" y="308.0" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="things.unitions.Unition" target="things.Thing" relationship="GENERALIZATION">
+      <point x="0.0" y="-13.5" />
+      <point x="849.5" y="211.0" />
+      <point x="727.0679347826087" y="211.0" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="places.superPlaces.openPlaces.UnknownLocation" target="places.superPlaces.SuperPlace" relationship="GENERALIZATION">
+      <point x="0.0" y="-13.5" />
+      <point x="1630.1385869565217" y="118.0" />
+      <point x="1636.5679347826087" y="118.0" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="entities.All" target="entities.Entity" relationship="GENERALIZATION">
+      <point x="19.25" y="-13.5" />
+      <point x="6.5" y="308.0" />
+      <point x="1817.1385869565217" y="308.0" />
+      <point x="0.0" y="13.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.5318906605922551" showDependencies="false" x="1205.0" y="206.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

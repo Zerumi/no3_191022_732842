@@ -1,6 +1,11 @@
-package things;
+package things.berries;
 
-public abstract class Berry extends Thing implements ISmellable{
+import things.ISmellable;
+import things.Thing;
+
+import java.util.Objects;
+
+public abstract class Berry extends Thing implements ISmellable {
     private String smell;
     private boolean isBlossom;
 
@@ -8,10 +13,7 @@ public abstract class Berry extends Thing implements ISmellable{
         smell = "неизвестный";
         this.setName("безымянная ягода");
     }
-    protected Berry()
-    {
-
-    }
+    protected Berry() {}
     protected Berry(String name)
     {
         this.setName(name);
@@ -45,5 +47,27 @@ public abstract class Berry extends Thing implements ISmellable{
     }
     protected void setBlossom(boolean isBlossom) {
         this.isBlossom = isBlossom;
+    }
+
+    @Override
+    public boolean equals(Object otherObject) {
+        if (!super.equals(otherObject)) return false;
+        Berry other = (Berry) otherObject;
+        return isBlossom == other.isBlossom
+                && Objects.equals(smell, other.smell);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(super.hashCode(), smell, isBlossom);
+    }
+
+
+    @Override
+    public String toString() {
+        return super.toString() + "[" +
+                "smell=" + smell
+                + ",isBlossom=" + isBlossom
+                + "]";
     }
 }

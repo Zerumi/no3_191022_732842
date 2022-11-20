@@ -1,4 +1,4 @@
-package places.isolatedPlaces;
+package places.superPlaces.isolatedPlaces;
 
 public class Hall extends IsolatedPlace {
 
