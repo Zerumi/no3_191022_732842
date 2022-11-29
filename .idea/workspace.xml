@@ -6,7 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="076bf813-87cb-4ac9-a9e0-f93221fc88f6" name="Changes" comment="release">
+    <list default="true" id="076bf813-87cb-4ac9-a9e0-f93221fc88f6" name="Changes" comment="add report">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,6 +98,8 @@
       <workItem from="1668880486536" duration="22934000" />
       <workItem from="1668907459989" duration="1348000" />
       <workItem from="1668908837999" duration="621000" />
+      <workItem from="1668979748805" duration="210000" />
+      <workItem from="1669471451085" duration="1356000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1666217231948</created>
@@ -141,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668908414903</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add report">
+      <created>1668979952704</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1668979952704</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,7 +175,8 @@
     <MESSAGE value="According to SOLID, part 1" />
     <MESSAGE value="According to SOLID, part 2 + diagrams" />
     <MESSAGE value="release" />
-    <option name="LAST_COMMIT_MESSAGE" value="release" />
+    <MESSAGE value="add report" />
+    <option name="LAST_COMMIT_MESSAGE" value="add report" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
